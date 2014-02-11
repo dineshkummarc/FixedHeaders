@@ -1,0 +1,122 @@
+/* Custom Stylesheet */
+body, html {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      background:#f3f3f3;
+      text-align: center;
+}
+
+body, .main, html {
+  padding: 0;
+  width: 100%;
+  float: left;
+  font-family: 'Roboto',Arial,sans-serif;
+}
+
+body .header{
+  color: #ecf0f1;
+}
+
+.main p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 100;
+}
+.nav-top {
+  background: black;
+}
+.nav-top a {
+  color: #ecf0f1;
+}
+
+/* ALL DEMO */
+h1 {
+  color: #000;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-size: 64px;
+}
+
+h1 span {
+  font-size: 44px;
+  display: block;
+}
+
+
+.menu, .header, .nav-top {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.page_container, .other {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.page_container h2, .page_container h1, .other h2, .other h1  {
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  padding-bottom: 15px;
+}
+.page_container h2, .page_container h3, .other h3 , .other h2  {
+  text-align: left;
+}
+.page_container h2, .page_container h1 , .page_container h3, .other h2, .other h1 , .other h3 {
+  color: black;
+}
+.page_container p, .other p {
+  color: black;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: left;
+}
+
+.other h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.page_container h2 {
+  font-size: 35px;
+}
+
+.demo3 #custom-nav {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+.demo3 #custom-nav.fixed {
+  top:0;
+  width: 100%;
+  margin-left: 0;
+}
+.demo3 #custom-nav ul {
+  text-align: center;
+  
+}
+.demo3 #custom-nav li{
+  display: inline-block;
+  float: none;
+}
+.demo3 #custom-nav li a{
+  display: inline-block;
+}
+
+.demo3 #custom-nav li a{
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.demo3 #custom-nav li .jumpto-second {
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 54px;
+  width: 100%;
+  left: 0px;
+}
+.demo3 .jumpto-subnav.fixed.bottom {
+  opacity: 1;
+}
+.demo3 .jumpto-subnav.fixed.bottom {
+  opacity: 0;
+}
